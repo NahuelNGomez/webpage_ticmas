@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
+    <script src="js/getName.js"></script>
+
     <header class="header">
         <h1>Curriculum Vitae</h1>
         <ul>
@@ -21,16 +23,17 @@
     </header>
     <main>
         <div id="aboutMe">
-            <img src="./data/icon_person.png" alt="person icon">
-            <p id="name">NOMBRE APELLIDO</p>
-            <p id="career">A Software engineer</p>
+            <div id="iconName"></div>
+            <p id="name"></p>
+            <p id="career">Ingeniería informática</p>
+
             <ul>
-                <li><i class="fa-solid fa-calendar-days"></i></li>
-                <li><i class="fa-solid fa-globe"></i></li>
+                <li id="age"><i class="fa-solid fa-calendar-days"></i></li>
+                <li id="country"><i class="fa-solid fa-globe"></i></li>
             </ul>
             <div class="inputHover">
-                <p id="userTitle"> titulo</p>
-                <p id="userValue"> valor</p>
+                <p id="userTitle"> -</p>
+                <p id="userValue"> -</p>
             </div>
         </div>
         <div class="separator"></div>
@@ -62,18 +65,19 @@
         <div class="separator"></div>
         <div id="contact">
             <ul>
-                <li><i class="fa-regular fa-envelope"></i></li>
-                <li><i class="fa-solid fa-phone"></i></li>
-                <li><i class="fa-solid fa-location-dot"></i></li>
+                <li id="email"><i class="fa-regular fa-envelope"></i></li>
+                <li id="phone"><i class="fa-solid fa-phone"></i></li>
+                <li id="street"><i class="fa-solid fa-location-dot"></i></li>
             </ul>
             <div class="inputHover">
-                <p id="contactTitle">contactTitle</p>
-                <p id="contactValue">contactValue</p>
+                <p id="contactTitle">-</p>
+                <p id="contactValue">-</p>
             </div>
         </div>
         <div class="separator lastSeparator"></div>
-        <div id="output"></div>
-        <script src="./main.js"></script>
+        <script src="js/listenerData.js"></script>
+        <script src="js/listenerContact.js"></script>
     </main>
+
 </body>
 </html>
