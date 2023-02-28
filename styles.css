@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: #f5f6e0;
+}
+
+.header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 16px;
+    background-color: #9BC5C9;
+    color: #000;
+    border-bottom: 4px solid #BEC496;
+}
+
+header > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+}
+
+header > ul > li  {
+    margin: 0 0.2rem;
+    padding: 0.2rem;
+    display: block;
+}
+
+#aboutMe {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f6e0;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+#name, #career {
+    align-content: center;
+    text-align: center;
+}
+
+.separator {
+    border-bottom: 4px solid #BEC496;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleInfo {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+.experienceTitle {
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 2%;
+}
+
+.experienceValue{
+    margin-left: 3%;
+}
+
+.skill {
+    margin-bottom: 1%;
+}
+
+.lastSeparator {
+    margin-bottom: 10px;
+}
