@@ -1,7 +1,8 @@
 body {
     margin: 0;
-    font-family: sans-serif;
     background: #f5f6e0;
+    font-family: 'Golos Text', sans-serif;
+
 }
 
 .header {
@@ -9,7 +10,7 @@ body {
     text-transform: uppercase;
     padding: 16px;
     background-color: #9BC5C9;
-    color: #000;
+    color: black;
     border-bottom: 4px solid #BEC496;
 }
 
@@ -21,6 +22,7 @@ header > ul {
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
+    transition: background-color .33s ease;
 }
 
 header > ul > li  {
@@ -76,9 +78,65 @@ img {
 }
 
 .skill {
-    margin-bottom: 1%;
+    margin: 0 0.6rem;
+    padding: 0.2rem;
+    display: block;
+
 }
 
 .lastSeparator {
     margin-bottom: 10px;
+}
+
+main > div > ul > li {
+    margin: 10px;
+    padding: 1rem;
+    display: block;
+    font-size: 300%;
+
+}
+
+main > div > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 60%;
+}
+
+header > ul > li:hover {
+    transition: 1s;
+    background-color: #BEC496;
+    border-radius: 10px;
+    color: #1b1b32;
+    cursor: pointer;
+}
+main > div > ul > li:hover {
+    transition: 1s;
+    background-color: #BEC496;
+    border-radius: 10px;
+    color: #1b1b32;
+}
+
+a {
+    color: inherit;
+}
+
+.experience {
+    padding-left: 10px;
+    margin: 10px;
+}
+
+.experience:hover, .skill:hover {
+    transition: 1s;
+    background-color: #BEC496;
+    display: block;
+    border-radius: 10px;
+}
+
+.fa-circle-dot {
+    padding-right: 15px;
+    padding-left: 10px;
 }

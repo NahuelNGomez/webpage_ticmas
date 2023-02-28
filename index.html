@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
     <header class="header">
@@ -21,40 +25,47 @@
             <p id="name">NOMBRE APELLIDO</p>
             <p id="career">A Software engineer</p>
             <ul>
-                <li>Fecha de nacimiento</li>
-                <li>Nacionalidad</li>
+                <li><i class="fa-solid fa-calendar-days"></i></li>
+                <li><i class="fa-solid fa-globe"></i></li>
             </ul>
-            <p id="user_title"> titulo</p>
-            <p id="user_value"> valor</p>
+            <p id="userTitle"> titulo</p>
+            <p id="userValue"> valor</p>
         </div>
         <div class="separator"></div>
         <div id="work">
             <div class="info">
                 <p class="titleInfo">Habilidades</p>
                 <ul>
-                <li class="skill">Conocimiento de redes LAN y WAN</li>
-                <li class="skill">Bases de datos Oracle y SQLServer</li>
-                <li class="skill">Administración de la nube</li></ul>
+                <li class="skill"><i class="fa-regular fa-circle-dot"></i>Conocimiento de redes LAN y WAN</li>
+                <li class="skill"><i class="fa-regular fa-circle-dot"></i>Bases de datos Oracle y SQLServer</li>
+                <li class="skill"><i class="fa-regular fa-circle-dot"></i>Administración de la nube</li></ul>
 
             </div>
             <div class="info">
                 <p class="titleInfo">Experencias</p>
-                <p class="experienceTitle">Asistente de eventos (Septiembre 2019 - Octubre 2020)</p>
-                <p class="experienceValue">Encargado de caja demostradora, controlando el balance al final y al principio del día</p>
-                <p class="experienceTitle">Técnico de sistemas (Octubre 2020 - Octubre 2021)</p>
-                <p class="experienceValue">A cargo de proporcionar mantenimiento y soporte para los más de 500 equipos informáticos de la empresa</p>
-                <p class="experienceTitle">Técnico informático (Octubre 2021 - Actualidad)</p>
-                <p class="experienceValue">Responsable de la instalación de sistemas operativos y paquetes de sofware para los nuevos empleados</p>
+                <div class="experience">
+                    <p class="experienceTitle">Asistente de eventos (Septiembre 2019 - Octubre 2020)</p>
+                    <p class="experienceValue">Encargado de caja demostradora, controlando el balance al final y al principio del día</p>
+                </div>
+                <div class="experience">
+                    <p class="experienceTitle">Técnico de sistemas (Octubre 2020 - Octubre 2021)</p>
+                    <p class="experienceValue">A cargo de proporcionar mantenimiento y soporte para los más de 500 equipos informáticos de la empresa</p>
+                </div>
+                <div class="experience">
+                    <p class="experienceTitle">Técnico informático (Octubre 2021 - Actualidad)</p>
+                    <p class="experienceValue">Responsable de la instalación de sistemas operativos y paquetes de sofware para los nuevos empleados</p>
+                </div>
             </div>
         </div>
         <div class="separator"></div>
         <div id="contact">
             <ul>
-                <li>Email</li>
-                <li>Telefono</li>
-                <li>Dirección</li>
-                <li>Codigo postal</li>
+                <li><i class="fa-regular fa-envelope"></i></li>
+                <li><i class="fa-solid fa-phone"></i></li>
+                <li><i class="fa-solid fa-location-dot"></i></li>
             </ul>
+            <p id="contactTitle">contactTitle</p>
+            <p id="contactValue">contactValue</p>
         </div>
         <div class="separator lastSeparator"></div>
     </main>
